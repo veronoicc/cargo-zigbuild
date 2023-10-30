@@ -3,7 +3,7 @@ use std::ffi::OsString;
 use std::path::PathBuf;
 use std::process::Command;
 
-use cargo_zigbuild::{Build, Check, Clippy, Install, Run, Rustc, Test, Zig};
+use cargo_zigrun::{Build, Check, Clippy, Install, Run, Rustc, Test, Zig};
 use clap::Parser;
 
 #[allow(clippy::large_enum_variant)]
