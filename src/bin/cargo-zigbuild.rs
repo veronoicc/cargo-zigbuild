@@ -20,7 +20,7 @@ pub enum Opt {
     Install(Install),
     #[command(name = "rustc")]
     Rustc(Rustc),
-    #[command(name = "run", alias = "r")]
+    #[command(name = "zigrun", alias = &["run", "r"] )]
     Run(Run),
     #[command(name = "test", alias = "t")]
     Test(Test),
