@@ -1,5 +1,5 @@
 [package]
-name = "cargo-zigbuild"
+name = "cargo-zigrun"
 version = "0.17.4"
 edition = "2021"
 description = "Compile Cargo project with zig as linker"
